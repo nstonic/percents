@@ -1,6 +1,6 @@
 # Percents
 
-[Official public repository](https://gitlab.dvmn.org/dvmn-open-source-dev-tools/percents)
+[Official public repository](https://github.com/nstonic/percents)
 
 Calculating percentages, subtracting a discount, adding a markup is a very common task.
 The “Percents” library simplifies the work with percentages. To use it, all you need to do is import the `Percent` type
