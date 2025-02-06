@@ -6,7 +6,7 @@ with open("README.md", "r") as file:
 
 setup(
 	name="percents",
-	version="1.2.0",
+	version="1.2.3",
 	packages=find_packages(),
 	install_requires=[],
 	long_description=description,

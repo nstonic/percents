@@ -30,7 +30,7 @@ To take 38% from this amount, all you have to do is multiply the following
 >>> 380
 ```
 
-The type of data returned always matches the type of the original number
+The type of data returned always matches the type of the original one
 
 ```python
 result = 1000.0 + Percent(38)
@@ -46,7 +46,16 @@ type(result)
 >>> Decimal
 ```
 
-Percent can be compared to each other
+Even for strings
+
+```python
+result = '1000' + Percent(38)
+>>> '1380'
+type(result)
+>>> str
+```
+
+Percents can be compared to each other
 
 ```python
 percent1 = Percent(10)
